@@ -90,12 +90,8 @@ body {
 .crtv-itm {
   position: relative;
   list-style-type: none;
- 
   font-size: 1.5rem;
-  background-image: url(/images/icons8-black-circle-48.png) no-repeat center
-    left;
-  list-style-position: outside;
-  width: 15rem;
+   width: 15rem;
 }
 .circle {
   position: relative;
