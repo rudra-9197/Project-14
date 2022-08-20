@@ -11,7 +11,9 @@ body {
 
 .lst-items {
   display: flex;
+
   justify-content: flex-end;
+
 }
 .lst-item {
   margin-left: 4rem;
@@ -20,7 +22,7 @@ body {
 }
 .row {
   border-bottom: 2px solid grey;
-  width: 30rem;
+  width: 20rem;
   height: 1rem;
 }
 
@@ -39,8 +41,6 @@ body {
   margin-left: 10rem;
 }
 
-.head {
-}
 .head-1 {
   font-size: 6rem;
   color: grey;
@@ -57,7 +57,7 @@ body {
   color: grey;
 }
 .icons {
-  float: right;
+ 
 }
 .icon {
   margin-top: 3rem;
