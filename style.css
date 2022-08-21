@@ -5,10 +5,8 @@
 
 body {
   background-image: url(/images/pexels-rfstudio-3819572.jpg);
-  background-size: 35%;
+  background-size: 35% 100%;
   background-repeat: no-repeat;
-
-  height: 50rem;
 }
 
 .lst-items {
@@ -64,6 +62,10 @@ body {
 .icon {
   margin-top: 3rem;
 }
+
+.icons {
+  padding-right: 2rem;
+}
 .temp {
 }
 .pack-btn {
@@ -79,15 +81,14 @@ body {
 .btm-sec {
   width: 60%;
   display: flex;
-
+  margin-top: 3rem;
   float: right;
 }
+.items{
 
-.items {
-  left: 50rem;
-  top: 8rem;
-  width: 30rem;
+  padding-top: 5rem;
 }
+
 .bundle {
   display: flex;
 }
@@ -144,29 +145,20 @@ body {
   width: 35rem;
 }
 
-@media  screen  and (max-width: 1500px) {
-
+@media screen and (max-width: 1500px) {
   .head-1 {
     margin-bottom: 0px;
     font-size: 5rem;
     color: grey;
     font-family: "Londrina Outline", cursive;
   }
-  
+
   .head-2 {
     margin-top: 0px;
     font-size: 4rem;
     color: black;
   }
-
-  
 }
-
-
-
-
-
-
 
 @media screen and (max-width: 992px) {
   body {
@@ -200,7 +192,6 @@ body {
   }
 
   .btm-sec {
-  
     width: 100%;
     height: max-content;
     display: flex;
@@ -208,19 +199,15 @@ body {
     justify-content: space-around;
     align-items: center;
   }
-  .items{
-
-padding-left: 2rem;
-
+  .items {
+    padding-left: 2rem;
   }
 
-  .card h2{
-
+  .card h2 {
     padding-right: 5rem;
   }
 
-  .card img{
-
+  .card img {
     padding-right: 2rem;
   }
   .icons {
@@ -228,7 +215,6 @@ padding-left: 2rem;
     width: 100%;
     justify-content: space-around;
     margin-top: 3rem;
-
   }
 
   .head {
