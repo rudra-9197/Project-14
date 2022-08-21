@@ -1,15 +1,14 @@
 * {
   padding: 0px;
   margin: 0px;
-
 }
 
 body {
   background-image: url(/images/pexels-rfstudio-3819572.jpg);
   background-size: 35%;
   background-repeat: no-repeat;
-  
- height: 50rem;
+
+  height: 50rem;
 }
 
 .lst-items {
@@ -17,10 +16,8 @@ body {
   float: right;
   width: 55%;
   justify-content: space-around;
- 
 }
 .lst-item {
- 
   font-size: 1.5rem;
   color: grey;
 }
@@ -44,7 +41,6 @@ body {
   align-items: baseline;
   margin-left: 10rem;
   margin-top: 0px;
-
 }
 
 .head-1 {
@@ -58,7 +54,6 @@ body {
   margin-top: 0px;
   font-size: 7rem;
   color: black;
-
 }
 
 .ing {
@@ -70,7 +65,6 @@ body {
   margin-top: 3rem;
 }
 .temp {
-
 }
 .pack-btn {
   padding: 1rem;
@@ -150,61 +144,94 @@ body {
   width: 35rem;
 }
 
-@media screen and (max-width: 992px) {
-  body {
-    background-image: none;
-   width: fit-content;
-   margin-left: auto;
- 
-   margin-right: auto;
+@media  screen  and (max-width: 1500px) {
+
+  .head-1 {
+    margin-bottom: 0px;
+    font-size: 5rem;
+    color: grey;
+    font-family: "Londrina Outline", cursive;
   }
-
-  .ttl-head{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-   
-      width: 100%;
-  }
-
-  .lst-items{
-
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-  .lst-item{
   
-
+  .head-2 {
+    margin-top: 0px;
+    font-size: 4rem;
+    color: black;
   }
 
-  .row{
-
-    display: none;
-  }
-
-  .btm-sec{
-    border: 2px solid;
-    width: 100%;
-    height: max-content;
-    display: flex;
-   
-    justify-content: space-around;
-    align-items: center;
-   
-  }
-  .icons{
-
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-  }
+  
 }
 
 
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  body {
+    background-image: none;
+    width: fit-content;
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .ttl-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 100%;
+  }
+
+  .lst-items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .lst-item {
+  }
+
+  .row {
+    display: none;
+  }
+
+  .btm-sec {
+  
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-top: 10rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .items{
+
+padding-left: 2rem;
+
+  }
+
+  .card h2{
+
+    padding-right: 5rem;
+  }
+
+  .card img{
+
+    padding-right: 2rem;
+  }
+  .icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+  }
+
+  .head {
+    padding-left: 3rem;
+  }
+}
