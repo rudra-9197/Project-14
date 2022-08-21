@@ -1,22 +1,26 @@
 * {
   padding: 0px;
   margin: 0px;
+
 }
 
 body {
   background-image: url(/images/pexels-rfstudio-3819572.jpg);
   background-size: 35%;
   background-repeat: no-repeat;
+  
+ height: 50rem;
 }
 
 .lst-items {
   display: flex;
-
-  justify-content: flex-end;
-
+  float: right;
+  width: 55%;
+  justify-content: space-around;
+ 
 }
 .lst-item {
-  margin-left: 4rem;
+ 
   font-size: 1.5rem;
   color: grey;
 }
@@ -30,40 +34,43 @@ body {
 
 .ttl-head {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   width: 55%;
   float: right;
 }
 .base-txt {
   display: flex;
-  justify-content: end;
-  align-items: flex-start;
+  justify-content: baseline;
+  align-items: baseline;
   margin-left: 10rem;
+  margin-top: 0px;
+
 }
 
 .head-1 {
+  margin-bottom: 0px;
   font-size: 6rem;
   color: grey;
   font-family: "Londrina Outline", cursive;
 }
 
 .head-2 {
+  margin-top: 0px;
   font-size: 7rem;
   color: black;
+
 }
 
 .ing {
   font-size: 3rem;
   color: grey;
 }
-.icons {
- 
-}
+
 .icon {
   margin-top: 3rem;
 }
 .temp {
-  margin-top: 6rem;
+
 }
 .pack-btn {
   padding: 1rem;
@@ -87,7 +94,7 @@ body {
   top: 8rem;
   width: 30rem;
 }
-.bundle{
+.bundle {
   display: flex;
 }
 .crtv-itm {
@@ -113,7 +120,7 @@ body {
   right: 3rem;
 }
 .line {
-  margin-left: 7px;
+  margin-left: 8px;
   border-left: 2px solid grey;
   height: 5rem;
 }
@@ -142,3 +149,62 @@ body {
 .drama-img {
   width: 35rem;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-image: none;
+   width: fit-content;
+   margin-left: auto;
+ 
+   margin-right: auto;
+  }
+
+  .ttl-head{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+   
+      width: 100%;
+  }
+
+  .lst-items{
+
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .lst-item{
+  
+
+  }
+
+  .row{
+
+    display: none;
+  }
+
+  .btm-sec{
+    border: 2px solid;
+    width: 100%;
+    height: max-content;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  .icons{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+
